@@ -11,12 +11,13 @@ function SumCalculator() {
 
     return (
         <div>
+            <h2>Sum Calculator</h2>
             <input
                 type='number'
                 value={number}
                 onChange={handleChange}
             />
-            <p>{displayNum}</p>
+            <p>Sum: {displayNum}</p>
 
         </div>
     )
